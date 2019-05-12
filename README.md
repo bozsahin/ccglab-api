@@ -6,7 +6,7 @@ I made this separate and optional because not all non-developers like (or need t
 Use <code>ccglab:</code> qualifier for CCGlab functions, 
 or do <code>(in-package :ccglab)</code>.
 
-Any CCGlab function is essentially callable if you know what you're doing (using <code>ccglab::</code>); 
+Any CCGlab function is callable if you know what you're doing (using <code>ccglab::</code>); 
 the export list is a suggestion about what I think you need from <code>ccglab:</code> package. Not surprisingly, these are the names
 returned by <code>(ab)</code> (list of abbreviations).
 
