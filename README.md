@@ -9,7 +9,7 @@ or do <code>(in-package :ccglab)</code>. We do not export anything.
 Any CCGlab function is callable if you know what you're doing.
 Check out <code>ccglab::(ab)</code> for top-level functions. Consult CCGlab manual's Table 5 for more.
 
-If you use API method of using CCGlab, I assume you know your Lisp and change the paths in the API.
+If you use API method of using CCGlab, I assume you know your Lisp to change the paths in the API.
 You won't be loading CCGlab with the bash scripts provided in <code>$CCGLAB_HOME/bin</code>.
 
 Just load <code>ccglab.lisp</code>
