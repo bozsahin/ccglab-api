@@ -1,7 +1,7 @@
 # ccglab-api
 API for isolating namespace of CCGlab from Common Lisp as a package.
 
-I made this separate and optional because not all end-users like (or need to know) the idea of packages.
+I made this separate and optional because not all non-developers like (or need to know) the idea of packages.
 
 Use <code>ccglab:</code> qualifier for top-level functions provided 
 or do <code>(in-package :ccglab)</code>.
