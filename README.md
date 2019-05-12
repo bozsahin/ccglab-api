@@ -12,4 +12,4 @@ Check out <code>ccglab::(ab)</code> for top-level functions.
 If you use API method of using CCGlab, I assume you know your Lisp and change the paths in the API.
 You won't be loading CCGlab with the bash scripts provided in <code>$CCGLAB_HOME/bin</code>.
 
-Just load <code>ccglab.lisp</code>.
+Just load <code>ccglab.lisp</code>
