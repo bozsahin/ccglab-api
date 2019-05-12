@@ -12,6 +12,5 @@ Check out <code>ccglab::(ab)</code> for top-level functions. Consult CCGlab manu
 If you use API method of using CCGlab, I assume you know your Lisp to change the paths in the API. Please do so <em>after</em>
 you install CCGlab fully.
 
-You won't be loading CCGlab with the bash scripts provided in <code>$CCGLAB_HOME/bin</code>.
-
+I assume you won't be loading CCGlab with the bash scripts provided in <code>$CCGLAB_HOME/bin</code>.
 Just load <code>ccglab.lisp</code>
