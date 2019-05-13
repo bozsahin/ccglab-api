@@ -1,3 +1,5 @@
+;; API for CCGlab
+;; -- cem bozsahin, 2019
 (defpackage :ccglab
   (:use :cl 
 	:sb-ext)) ; this one is for SBCL, do something similar for CCL for shell commands
