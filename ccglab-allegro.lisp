@@ -13,7 +13,7 @@
 (format t "~2%This is what Franz Inc. thinks we should remember their Lisp as:~%  ~A.~%I will remember it as ALLEGRO.~2%" 
 	(lisp-implementation-type) ;; Franz Inc. has funny ideas about unique names
 	) ; showing it before reset to see what I mean
-(setf *lispsys* 'allegro) ; life is simpler this way
+(setf *lispsys* 'alisp) ; life is simpler this way
 (reset-globals)
 (welcome *lispsys*)
 (format t "CCGlab loaded as a package.~%Do (in-package :ccglab) to use it like in REPL")
