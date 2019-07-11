@@ -14,4 +14,6 @@
 (reset-globals)
 (welcome *lispsys*)
 (format t "CCGlab loaded as a package.~%Do (in-package :ccglab) to use it like in REPL~%")
+(load #p"/Users/bozsahin/myrepos/ccglab/bin/init-sbcl.lisp")
+(load #p"/Users/bozsahin/myrepos/ccglab/bin/init-user.lisp")
 (in-package :cl) ; get out
