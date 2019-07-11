@@ -10,8 +10,8 @@
 (load #p"/Users/bozsahin/myrepos/ccglab/bin/suppress-style-warnings.lisp")
 (load #p"/Users/bozsahin/mysrc/lisp/lalrparser.lisp")
 (load #p"/Users/bozsahin/myrepos/ccglab/bin/ccg.lisp")
-(format t "~2%This is what Franz Inc. thinks we should remember their Lisp as:~%  ~A.~%I will remember it as ~A.~2%" 
 (setf *lispsys* 'alisp) ; life is simpler this way
+(format t "~2%This is what Franz Inc. thinks we should remember their Lisp as:~%  ~A.~%I will remember it as ~A.~2%" 
 	(lisp-implementation-type) *lispsys* ;; Franz Inc. has funny ideas about unique names
 	) ; displaying it to show what I mean
 (reset-globals)
