@@ -16,7 +16,8 @@
 	) ; displaying it to show what I mean
 (reset-globals)
 (welcome *lispsys*)
-(format t "CCGlab loaded as a package.~%Do (in-package :ccglab) to use it like in REPL")
 (load #p"/Users/bozsahin/myrepos/ccglab/bin/init-alisp.lisp")
 (load #p"/Users/bozsahin/myrepos/ccglab/bin/init-user.lisp")
+(format t "~%CCGlab loaded as a package.~%  do (in-package :ccglab) to use it like in REPL")
+(format t "~%  use (ccglab::<name>) to access any ccglab <name> from outside the package")
 (in-package :cl) ; get out
